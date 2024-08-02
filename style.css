@@ -1,19 +1,30 @@
-section {
+.card-container {
   display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 .card{
    width: 400px;
-   height: 650px;
-   background-color: burlywood;
+   height: 600px;
+   #background-color: burlywood;
+   background-color: #BC8F8F;
+   font-family: Arial, sans-serif;
+   #color: #252505;
+   color: #302010;
    border-radius: 60px;
+}
+
+.card:hover {
+    background-color: #0080ff;
+    width: 410px;
+    height: 610px;
+    transition: 1s;
 }
 
 .photo {
    height: 40%;
    padding: 40px;
-   # padding - это внутренний отступ
-   # Для внешних отступов используется margin
 }
 
 .info {
